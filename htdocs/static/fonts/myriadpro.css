@@ -1,0 +1,63 @@
+@font-face {
+    font-family: 'MyriadPro';
+    src: url('../fonts/MYRIADPRO-REGULAR.OTF');
+    src: url('../fonts/MYRIADPRO-REGULAR.OTF') format('opentype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'MyriadProLight';
+    src: url('../fonts/MYRIADPRO-LIGHT.OTF');
+    src: url('../fonts/MYRIADPRO-LIGHT.OTF') format('opentype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'MyriadProBold';
+    src: url('../fonts/MYRIADPRO-BOLD.OTF');
+    src: url('../fonts/MYRIADPRO-BOLD.OTF') format('opentype');
+}
+
+@font-face {
+    font-family: 'MyriadProBoldCond';
+    src: url('../fonts/MYRIADPRO-BOLDCOND.OTF');
+    src: url('../fonts/MYRIADPRO-BOLDCOND.OTF') format('opentype');
+}
+
+@font-face {
+    font-family: 'MyriadProBoldCondIt';
+    src: url('../fonts/MYRIADPRO-BOLDCONDIT.OTF');
+    src: url('../fonts/MYRIADPRO-BOLDCONDIT.OTF') format('opentype');
+}
+
+@font-face {
+    font-family: 'MyriadProBoldIt';
+    src: url('../fonts/MYRIADPRO-BOLDIT.OTF');
+    src: url('../fonts/MYRIADPRO-BOLDIT.OTF') format('opentype');
+}
+
+@font-face {
+    font-family: 'MyriadProCond';
+    src: url('../fonts/MYRIADPRO-COND.OTF');
+    src: url('../fonts/MYRIADPRO-COND.OTF') format('opentype');
+}
+
+@font-face {
+    font-family: 'MyriadProCondIt';
+    src: url('../fonts/MYRIADPRO-CONDIT.OTF');
+    src: url('../fonts/MYRIADPRO-CONDIT.OTF') format('opentype');
+}
+
+@font-face {
+    font-family: 'MyriadProSemibold';
+    src: url('../fonts/MYRIADPRO-SEMIBOLD.OTF');
+    src: url('../fonts/MYRIADPRO-SEMIBOLD.OTF') format('opentype');
+}
+
+@font-face {
+    font-family: 'MyriadProSemiboldIt';
+    src: url('../fonts/MYRIADPRO-SEMIBOLDIT.OTF');
+    src: url('../fonts/MYRIADPRO-SEMIBOLDIT.OTF') format('opentype');
+}

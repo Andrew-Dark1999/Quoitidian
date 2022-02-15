@@ -1,0 +1,42 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" >
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1">
+<metadata>
+Created by FontForge 20161116 at Thu May  5 14:43:32 2011
+ By Jimmy Wärting
+</metadata>
+<defs>
+<font id="OpenSans-Light" horiz-adv-x="1229" >
+  <font-face 
+    font-family="Open Sans Light"
+    font-weight="300"
+    font-stretch="normal"
+    units-per-em="2048"
+    panose-1="2 11 3 6 3 5 4 2 2 4"
+    ascent="1638"
+    descent="-410"
+    bbox="-259 -20 1504 1485"
+    underline-thickness="102"
+    underline-position="-205"
+    unicode-range="U+1F4D-1F4D"
+  />
+<missing-glyph 
+d="M193 1462h841v-1462h-841v1462zM297 104h633v1254h-633v-1254z" />
+    <glyph glyph-name=".notdef" 
+d="M193 1462h841v-1462h-841v1462zM297 104h633v1254h-633v-1254z" />
+    <glyph glyph-name="null" horiz-adv-x="0" 
+ />
+    <glyph glyph-name="nonmarkingreturn" horiz-adv-x="1044" 
+ />
+    <glyph glyph-name="space" horiz-adv-x="532" 
+ />
+    <glyph glyph-name="O" horiz-adv-x="1565" 
+d="M1436 733q0 -348 -174 -550.5t-480 -202.5q-305 0 -479 202.5t-174 552.5q0 349 175.5 549.5t479.5 200.5q306 0 479 -201.5t173 -550.5zM240 733q0 -314 140 -485.5t402 -171.5q264 0 403.5 170t139.5 487q0 316 -139.5 484.5t-401.5 168.5q-261 0 -402.5 -170
+t-141.5 -483z" />
+    <glyph glyph-name="uni1F4D" unicode="&#x1f4d;" horiz-adv-x="1632" 
+d="M1504 733q0 -348 -174 -550.5t-480 -202.5q-305 0 -479 202.5t-174 552.5q0 349 175.5 549.5t479.5 200.5q306 0 479 -201.5t173 -550.5zM308 733q0 -314 140 -485.5t402 -171.5q264 0 403.5 170t139.5 487q0 316 -139.5 484.5t-401.5 168.5q-261 0 -402.5 -170
+t-141.5 -483zM7 1151q87 179 123 311h115v-18q-31 -67 -84 -155t-102 -154h-52v16zM-259 1255q0 84 51.5 135t153.5 80v-55q-127 -38 -127 -106q0 -24 14.5 -35t32.5 -20t32.5 -21t14.5 -37q0 -31 -20 -49.5t-52 -18.5q-46 0 -73 35t-27 92z" />
+    <glyph glyph-name="dasiaoxia" horiz-adv-x="819" 
+d="M440 1151q87 179 123 311h115v-18q-31 -67 -84 -155t-102 -154h-52v16zM174 1255q0 84 51.5 135t153.5 80v-55q-127 -38 -127 -106q0 -24 14.5 -35t32.5 -20t32.5 -21t14.5 -37q0 -31 -20 -49.5t-52 -18.5q-46 0 -73 35t-27 92z" />
+  </font>
+</defs></svg>

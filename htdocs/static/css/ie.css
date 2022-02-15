@@ -1,0 +1,9 @@
+.crm-table {
+	/*table-layout: fixed;*/
+}
+
+.first-cell-visible th:first-child, .first-cell-visible td:first-child {
+	width: 40px!important;
+	min-width: 40px!important;
+	max-width: 40px!important;
+}

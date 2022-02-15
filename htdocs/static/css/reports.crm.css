@@ -1,0 +1,637 @@
+.edit-view .panel-heading .todo-actionlist ul.dropdown-menu.reports-menu{
+	width: 300px;
+	box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.2)!important;
+	border: 1px solid rgba(0,0,0,.15);
+	border-radius: 4px;
+	top: 20px;
+	padding: 15px 20px;
+}
+ul.dropdown-menu.reports-menu > li{
+	position: relative;
+	padding: 0;
+	padding-left: 1px;
+	padding-bottom: 5px;
+	overflow: visible!important;
+}
+ul.dropdown-menu.reports-menu > li>a.add-field{
+	margin: 0;
+	color: #262626;
+}
+ul.dropdown-menu.reports-menu > li>a.add-field:focus,
+ul.dropdown-menu.reports-menu > li>a.add-field:hover{
+	color: #262626;
+}
+ul.dropdown-menu.reports-menu > .nicescroll-rails{
+	display: none !important;
+}
+.reports-color{
+	position: absolute;
+    right: 35px;
+    top: 9px;
+    z-index: 3;
+}
+.modal div[data-copy_id="8"].edit-view .element[data-element_type="indicator"] .reports-color{
+	right: 50px;
+}
+.reports-color.open{
+	z-index: 4;
+}
+.reports-color>button{
+	background-color: transparent !important;
+}
+.full-width .dropdown-menu.reports-menu a.todo-remove{
+	position: absolute;
+	right: -20px;
+    top: 6px;
+    padding: 0;
+}
+.modal div[data-copy_id="8"] .dropdown-menu.reports-menu a.todo-remove{
+	right: 26px;
+	z-index: 2;
+}
+.full-width .dropdown-menu.reports-menu a.todo-remove:hover{
+	background: transparent;
+}
+.bootstrap-select.btn-group.reports-mark .dropdown-menu,
+.reports-menu .bootstrap-select.btn-group .dropdown-menu{
+	width: 257px;
+}
+.bootstrap-select.btn-group.reports-mark .dropdown-menu>ul,
+.reports-menu .bootstrap-select.btn-group .dropdown-menu>ul{
+	width: 100%;
+}
+.bootstrap-select.btn-group.reports-mark .dropdown-menu>li,
+.reports-menu .bootstrap-select.btn-group .dropdown-menu>li{
+	padding: 0;
+}
+.bootstrap-select.btn-group.reports-mark .dropdown-menu>li a,
+.reports-menu .bootstrap-select.btn-group .dropdown-menu>li a{
+	width: 100%;
+    padding: 0;
+    padding-left: 10px;
+    margin: 0;
+    display: block;
+    height: 24px;
+    line-height: 24px;
+    font-size: 14px;
+}
+.bootstrap-select.btn-group.reports-mark .dropdown-menu>li a:hover{
+
+}
+.select-color.reports-color > .dropdown-menu{
+	width: 258px;
+    top: 27px;
+    left: -206px;
+}
+.select-color.reports-color > .dropdown-menu > ul{
+	width: 100% !important;
+}
+.select-color.reports-color > .dropdown-menu > ul > li{
+	padding: 0;
+}
+.reports-menu .select-color.reports-color > .dropdown-menu > ul > li > a{
+	display: block;
+    width: 100%;
+    height: 36px;
+    margin: 0;
+    padding: 0;
+    background: transparent;
+}
+.select-color.reports-color > .dropdown-menu > ul > li > a.selected{
+	background: #000; 
+}
+.select-color.reports-color > .dropdown-menu > ul > li > a i.check-mark{
+	top: 6px !important;
+}
+.edit-view[data-copy_id="8"] [data-type="block_panels"] .columns-section{
+	width: 222px;
+	float: left;
+	margin-right: 0;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+/*.edit-view[data-copy_id="8"] .element_field_type_params_select>li:first-child .columns-section+.columns-section{*/
+	/*margin-top: 0;*/
+/*}*/
+/*.edit-view[data-copy_id="8"] .element_field_type_params_select>li:first-child .columns-section+.todo-remove{*/
+	/*top: 4px;*/
+/*}*/
+
+.edit-view[data-copy_id="8"] .columns-section+.columns-section,
+.edit-view[data-copy_id="8"] input.form-control+.columns-section{
+	width: 485px;
+	float: none;
+    margin-right: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.modal div[data-copy_id="8"] .select-item .crm-dropdown .dropdown-toggle.selectpicker{
+	width: 100%;
+    padding: 0 25px 0 12px;
+    position: static;
+    border: 1px solid rgba(150, 160, 180, 0.3);
+    margin-bottom: 5px;
+}
+
+select.first_empty+.bootstrap-select li:first-child{
+	display: none;
+}
+
+[data-type="block_filter"] select.first_empty+.bootstrap-select li:first-child{
+    display: block;
+}
+[data-type="block_filter"] select.first_empty+.bootstrap-select li:first-child a{
+	/*background-color: white;*/
+	color: white;
+}
+[data-type="block_filter"] select.first_empty+.bootstrap-select li:hover:first-child a,
+[data-type="block_filter"] select.first_empty+.bootstrap-select li.selected:first-child a{
+	background-color: #474752;
+	color: #474752;
+}
+/*select.first_empty+.bootstrap-select li:first-child a{*/
+	/*color: transparent;*/
+/*}*/
+/*select.first_empty+.bootstrap-select li.selected:first-child a{*/
+	/*background:transparent!important;*/
+/*}*/
+.modal div[data-copy_id="8"].edit-view .inputs-group {
+    margin-bottom: 10px;
+}
+.modal .bootstrap-select.reports-color > .dropdown-menu {
+    min-height: 298px !important;
+}
+.morris-hover{
+	text-align: left;
+	padding: 12px;
+	border: none;
+	box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.2);
+	background: #fff;
+	border-radius: 5px;
+	display: none !important;
+	top: 239px;
+}
+.morris-hover .triangle{
+	position: absolute;
+	left: 50%;
+	bottom: 0;
+}
+.morris-hover .triangle.top{
+	top: 0;
+    bottom: initial;
+}
+.morris-hover .triangle:before{
+	content:'';
+	width:0;
+	height: 0;
+	display: block;
+	border: 5px solid transparent;
+	border-top-color: #efefef;
+	position: absolute;
+	bottom: -10px;
+	left: 0;
+	margin-left: -5px;
+}
+.morris-hover .triangle:after{
+	content:'';
+	width:0;
+	height: 0;
+	display: block;
+	border: 5px solid transparent;
+	border-top-color: #fff;
+	position: absolute;
+	bottom: -9px;
+	left: 0;
+	margin-left: -5px;
+}
+.morris-hover .triangle.top:before{
+	bottom: initial;
+    top: -10px;
+    border-top-color: transparent;
+    border-bottom-color: #efefef;
+}
+.morris-hover .triangle.top:after{
+	bottom: initial;
+    top: -9px;
+    border-top-color: transparent;
+    border-bottom-color: #fff;
+}
+.morris-hover-dot{
+	display: block;
+    height: 7px;
+    width: 7px;
+    border-radius: 60%;
+    float: left;
+    margin-top: 5px;
+    margin-right: 12px;
+}
+.morris-hover-point,
+.morris-hover-row-label{
+	font-family: "CustomOpenSans";
+    color: #8b8b8b;
+    white-space: nowrap;
+}
+.morris-hover-point b{
+	color: #32323a;
+}
+.graph-area:hover .morris-hover{
+  display: block !important;
+}
+.input-daterange{
+	width:335px;
+	float: right;
+}
+.modal div[data-copy_id="8"].edit-view .inputs-panel[data-element_type="graph"] .editable-field+span .edit-dropdown,
+.modal div[data-copy_id="8"].edit-view .inputs-panel[data-element_type="indicator"] .editable-field+span .edit-dropdown{
+	position: static;
+}
+.modal div[data-copy_id="8"].edit-view .inputs-panel[data-element_type="graph"] .panel-heading,
+.modal div[data-copy_id="8"].edit-view .inputs-panel[data-element_type="indicator"] .panel-heading{
+	position: relative;
+}
+.modal div[data-copy_id="8"].edit-view .inputs-panel[data-element_type="graph"] .editable-field+span .edit-dropdown ul.dropdown-menu,
+.modal div[data-copy_id="8"].edit-view .inputs-panel[data-element_type="indicator"] .editable-field+span .edit-dropdown ul.dropdown-menu{
+	left: 20px;
+    top: 11px;
+}
+.modal div[data-copy_id="8"].edit-view .inputs-panel[data-element_type="graph"] .editable-field+span .edit-dropdown ul.dropdown-menu li,
+.modal div[data-copy_id="8"].edit-view .inputs-panel[data-element_type="indicator"] .editable-field+span .edit-dropdown ul.dropdown-menu li{
+	display: inline-block;
+    width: auto;
+}
+.modal div[data-copy_id="8"].edit-view .inputs-panel[data-element_type="graph"] .editable-field+span .edit-dropdown ul.dropdown-menu li .form-control,
+.modal div[data-copy_id="8"].edit-view .inputs-panel[data-element_type="indicator"] .editable-field+span .edit-dropdown ul.dropdown-menu li .form-control{
+    font-size: 17px;
+    height: 24px;
+    max-width: 640px;
+}
+.modal div[data-copy_id="8"].edit-view .inputs-panel[data-element_type="graph"] .editable-field+span .edit-dropdown ul.dropdown-menu li .save-input,
+.modal div[data-copy_id="8"].edit-view .inputs-panel[data-element_type="indicator"] .editable-field+span .edit-dropdown ul.dropdown-menu li .save-input{
+	font-size: 17px!important;
+    color: #8f8f9b;
+    height: 24px!important;
+    padding: 0 !important;
+    margin-left: 10px!important;
+    border-bottom: 1px solid #8f8f9b;
+    width: auto !important;
+}
+.modal div[data-copy_id="8"].edit-view .inputs-panel[data-element_type="graph"] .editable-field+span .edit-dropdown ul.dropdown-menu li .save-input:hover,
+.modal div[data-copy_id="8"].edit-view .inputs-panel[data-element_type="indicator"] .editable-field+span .edit-dropdown ul.dropdown-menu li .save-input:hover,
+.modal div[data-copy_id="8"].edit-view .inputs-panel[data-element_type="graph"] .editable-field+span .edit-dropdown ul.dropdown-menu li .save-input:focus,
+.modal div[data-copy_id="8"].edit-view .inputs-panel[data-element_type="indicator"] .editable-field+span .edit-dropdown ul.dropdown-menu li .save-input:focus{
+	background: #fff;
+}
+.list_view_block[data-copy_id="8"] .reports-det-table .first-cell-visible th:first-child, 
+.list_view_block[data-copy_id="8"] .reports-det-table .first-cell-visible td:first-child{
+	max-width: 100px!important;
+    min-width: 100px!important;
+    width: auto !important;
+    text-align: left;
+    overflow-x: hidden;
+    border-bottom-width: 1px;
+}
+.report-droptools ul.dropdown-menu{
+	padding: 15px 20px;
+	width: 295px;
+}
+.report-droptools > ul.dropdown-menu > li{	
+	position: relative;
+}
+.report-droptools > ul.dropdown-menu > li+li{
+	margin-top: 12px!important;
+}
+.report-droptools > ul.dropdown-menu > li:last-child{
+	margin-top: 0px!important;
+}
+.report-droptools > ul.dropdown-menu > li .element[data-type="remove_indicator"]{
+	position: absolute;
+    right: 27px;
+    top: 7px;
+    z-index: 2;
+    width: 20px!important;
+    height: 20px;
+    padding: 0!important;
+    text-align: center;
+}
+.report-droptools > ul.dropdown-menu > li .element[data-type="remove_indicator"]:hover{
+	background: #fff;
+}
+.report-droptools > ul.dropdown-menu > li .add-field{
+	padding-left: 0;
+	padding-top: 0px!important;
+    margin-bottom: -5px!important;
+    margin-top: 12px!important;
+}
+.report-droptools > ul.dropdown-menu > li .add-field:hover,
+.report-droptools > ul.dropdown-menu > li .add-field:focus{
+	background: #fff;
+	color: #32323a;
+	text-decoration: underline;
+}
+.report-droptools > ul.dropdown-menu .dropdown-menu{
+	width: 200px;
+	/*padding-bottom: 0;*/
+}
+.modal div[data-copy_id="8"].edit-view .element[data-element_type="filter"] .settings-menu .bootstrap-select.btn-group .btn .caret{
+	right: 10px;
+    margin-top: -7px;
+}
+.modal div[data-copy_id="8"].edit-view .element[data-element_type="filter"] .crm-dropdown .settings-menu{
+	padding-bottom: 15px;
+}
+.modal div[data-copy_id="8"].edit-view .element[data-element_type="filter"] .crm-dropdown .settings-menu>li:last-child{
+	height: 38px;
+}
+.modal div[data-copy_id="8"].edit-view .element[data-element_type="filter"] .settings-menu .select .btn .caret{
+	top:50%!important;
+}
+.graph-area{
+	height: 346px;
+	margin: 0 -10px;
+	position: relative;
+}
+.graph-area svg{
+	background: #fff;
+}
+.modal div[data-copy_id="8"] .graph-area[data-graph_type="graph-line"],
+.modal div[data-copy_id="8"] .graph-area[data-graph_type="graph-histogram"]{
+	margin: 0 -23px 0 -10px;
+}
+.modal .edit-view[data-copy_id="8"] div.graph-area svg+svg,
+.list_view_block.copy_id8 div.graph-area svg+svg{
+	display: none;
+}
+.reports-det-table .dragtable-sortable li:nth-child(1) {
+    opacity: 0.7;
+    filter: alpha(opacity=70);
+}
+.modal div[data-copy_id="8"].edit-view .inputs-panel[data-element_type="graph"] .panel-heading .editable-field,
+.modal div[data-copy_id="8"].edit-view .inputs-panel[data-element_type="indicator"] .panel-heading .editable-field{
+	cursor: pointer;
+}
+.report-droptools > ul.dropdown-menu > li .bootstrap-select.btn-group .btn .caret{
+	right: 10px;
+}
+.list_view_block[data-copy_id="8"] .row[data-position="left"]{
+	float: left;
+	width: 50%;
+	margin-right: 0;
+	margin-left: -10px;
+}
+.list_view_block[data-copy_id="8"] .row[data-position="right"]{
+	float: right;
+	width: 50%;
+	margin-left: 0;
+	margin-right: -10px;
+}
+.list_view_block[data-copy_id="8"] .row[data-position="botton"]{
+	float: left;
+	width: 100%;
+	margin-right: 0;
+	margin-left: 0;
+}
+.list_view_block[data-copy_id="8"] .row[data-position="botton"] .col-sm-12{
+	padding: 0;
+}
+.list_view_block[data-copy_id="8"] .row[data-position="left"] .col-sm-12{
+	padding-right: 0;
+	padding-left: 10px;
+}
+.list_view_block[data-copy_id="8"] .row[data-position="right"] .col-sm-12{
+	padding-left: 0;
+	padding-right: 10px;
+}
+.list_view_block[data-copy_id="8"] .list-view-panel{
+	clear: both;
+}
+.edit-view[data-copy_id="8"] .inputs-panel[data-position="right"] .panel-heading .todo-actionlist ul.dropdown-menu,
+.edit-view[data-copy_id="8"] .inputs-panel[forced="left"] .panel-heading .todo-actionlist ul.dropdown-menu,
+.edit-view[data-copy_id="8"] .inputs-panel[data-position="left"] .panel-heading .todo-actionlist ul.dropdown-menu,
+.edit-view[data-copy_id="8"] .inputs-panel[data-position="left"]+.inputs-panel[data-position="botton"] .panel-heading .todo-actionlist ul.dropdown-menu{
+	width: 355px;
+}
+.edit-view[data-copy_id="8"] .inputs-panel[data-position="right"] .panel-heading .todo-actionlist ul.dropdown-menu li .form-control,
+.edit-view[data-copy_id="8"] .inputs-panel[forced="left"] .panel-heading .todo-actionlist ul.dropdown-menu li .form-control,
+.edit-view[data-copy_id="8"] .inputs-panel[data-position="left"] .panel-heading .todo-actionlist ul.dropdown-menu li .form-control,
+.edit-view[data-copy_id="8"] .inputs-panel[data-position="left"]+.inputs-panel[data-position="botton"] .panel-heading .todo-actionlist ul.dropdown-menu li .form-control{
+	max-width: 255px!important;
+}
+.edit-view[data-copy_id="8"] .inputs-panel[data-position="left"] .panel-heading .tools.pull-right,
+.edit-view[data-copy_id="8"] .inputs-panel[forced="left"] .panel-heading .tools.pull-right{
+	display: none;
+}
+.modal div[data-copy_id="8"].edit-view .settings-menu .select .btn .caret {
+    top: 17px!important;
+}
+.modal div[data-copy_id="8"].edit-view .bootstrap-select.btn-group.reports-mark .btn .caret,
+.modal div[data-copy_id="8"].edit-view .reports-menu .btn .caret{
+	right: 9px;
+}
+.modal div[data-copy_id="8"].edit-view .element[data-type="block_filter"] .inputs-group>.columns-section:first-child>.select-item,
+.modal div[data-copy_id="8"].edit-view .element[data-type="block_filter"] .inputs-group>.drag-marker+.columns-section>.select-item{
+  padding:0;
+}
+.modal div[data-copy_id="8"].edit-view .element[data-type="block_data_analysis"]>ul>li:nth-child(1),
+.modal div[data-copy_id="8"].edit-view .element[data-type="block_data_analysis"]>ul>li:nth-child(2),
+.modal div[data-copy_id="8"].edit-view .element[data-type="block_filter"]>ul>li:nth-child(1){
+  cursor: default;
+}
+.modal div[data-copy_id="8"].edit-view .inputs-panel .panel-body[data-type="block_data_analysis"],
+.modal div[data-copy_id="8"].edit-view .inputs-panel .panel-body[data-type="block_filter"]{
+    padding-bottom: 28px;
+    padding-left: 20px;
+}
+.modal div[data-copy_id="8"] ul.dropdown-menu.reports-menu > li{
+	padding-bottom: 0;
+}
+.modal div[data-copy_id="8"] ul.dropdown-menu.reports-menu > li>*{
+  padding-bottom: 12px!important;
+}
+.modal div[data-copy_id="8"] ul.dropdown-menu.reports-menu > li>*>.dropdown-menu{
+	top: 36px;
+}
+.modal div[data-copy_id="8"] ul.dropdown-menu.reports-menu > li>.reports-color>.dropdown-menu{
+	top: 27px;
+}
+.modal div[data-copy_id="8"].edit-view .panel-heading .todo-actionlist ul.dropdown-menu.reports-menu{
+  padding: 15px 20px 3px;
+}
+.modal div[data-copy_id="8"] .select-item .crm-dropdown .dropdown-toggle.selectpicker{
+  	margin-bottom: 12px;
+	font-size: 13px;
+}
+.modal div[data-copy_id="8"] .select-item .crm-dropdown .dropdown-toggle.selectpicker+.dropdown-menu{
+	top: 36px;
+}
+.reports-box{
+  padding: 14px 20px 24px;
+}
+.reports-params .reports-cell .reports-numb{
+  display: inline-block;
+  margin-left: -1px;
+  width: 100%;
+}
+.modal div[data-copy_id="8"] .reports-params .reports-cell .reports-numb{
+  padding-right: 10px;
+  word-break: break-all;
+}
+.reports-params{
+  display: block;
+  overflow: hidden;
+}
+.reports-params .reports-cell{
+  display: block;
+  width: 25%;
+  float: left;
+}
+.report-droptools .btn, .element[data-element_type="graph"] .bootstrap-select .btn,
+.modal div[data-copy_id="8"] .element[data-element_type="graph"] .bootstrap-select .dropdown-menu>li a,
+.modal div[data-copy_id="8"] .settings-menu .bootstrap-select .btn,
+.modal div[data-copy_id="8"] .settings-menu input.form-control,
+.modal div[data-copy_id="8"] .reports-mark .btn,
+.modal div[data-copy_id="8"] .reports-mark .btn+.dropdown-menu li a,
+.modal div[data-copy_id="8"] .reports-menu .todo-remove i{
+	font-size: 13px;
+}
+.modal div[data-copy_id="8"] .element[data-element_type="filter"] .element_relate_participant,
+.modal .edit-view[data-copy_id="8"] .element[data-element_type="filter"] .element_relate{
+	font-size: 13px;
+    padding-left: 10px;
+}
+/*.modal div[data-copy_id="8"] .selectpicker .filter-option,
+.list_view_block[data-copy_id="8"] .selectpicker .filter-option{*/
+	/*height: 34px;*/
+	/*line-height: 34px;*/
+/*}*/
+.modal div[data-copy_id="8"] .element[data-element_type="indicator"] .panel-body{
+	margin-top: -16px;
+    padding-bottom: 23px;
+}
+.report-droptools .bootstrap-select.btn-group .dropdown-menu li.disabled{
+	display: none;
+}
+
+.edit-view[data-copy_id="8"] .inputs-panel[data-position="botton"]+.inputs-panel,
+.edit-view[data-copy_id="8"] .inputs-panel[data-position="right"]+.inputs-panel{
+	clear: both;
+}
+.modal .edit-view[data-copy_id="8"] .inputs-panel[data-position="botton"][forced="left"]{
+	clear: none;
+}
+.modal .edit-view[data-copy_id="8"] .inputs-panel[data-position="left"],
+.modal .edit-view[data-copy_id="8"] .inputs-panel[data-position="botton"][forced="left"]{
+	width: 50%;
+	float: left;
+}
+.modal .edit-view[data-copy_id="8"] .inputs-panel[data-position="left"]+.inputs-panel[data-position="botton"]{
+	width: 50%;
+	float: right;
+	clear: none;
+}
+.modal .edit-view[data-copy_id="8"] .inputs-panel[data-position="botton"]+.inputs-panel[data-position="right"]{
+	width: 50%;
+	float: right;
+	clear: none;
+}
+.modal .edit-view[data-copy_id="8"] .inputs-panel:first-child{
+	/*padding-bottom: 0; if without save btn in EV*/
+}
+.modal .edit-view[data-copy_id="8"] .inputs-panel:nth-child(2) .panel-heading,
+.modal .edit-view[data-copy_id="8"] .inputs-panel:nth-child(2) .participants-block{
+	padding-left: 22px;
+}
+.modal .edit-view[data-copy_id="8"] .element[data-data_analysis_type="data_analysis_param"] .bootstrap-select .selectpicker{
+	/*margin: 0 -1px;*/
+}
+.modal .edit-view[data-copy_id="8"] select[disabled]+div+div.dropdown > .dropdown-menu{
+	display: none!important;
+}
+.modal .edit-view[data-copy_id="8"] .element[data-data_analysis_type="data_analysis_param"] select.element[data-type="module_copy_id"]+div.bootstrap-select li:first-child,
+.modal .edit-view[data-copy_id="8"] .element[data-data_analysis_type="data_analysis_indicator"] select.element[data-type="module_copy_id"]+div.bootstrap-select li:first-child{
+	display: none;
+}
+div.dropdown-menu>ul.dropdown-menu{
+	box-shadow: none!important;
+}
+.modal .edit-view[data-copy_id="8"] .element[data-element_type="data_analysis"] .element_relate_participant,
+.modal .edit-view[data-copy_id="8"] .element[data-element_type="filter"] .element_relate_participant,
+.modal .edit-view[data-copy_id="8"] .element[data-element_type="filter"] .element_relate{
+	position: static;
+	background-color: #FFFFFF;
+    border: solid 1px rgba(150, 160, 180, 0.3);
+    float: none;
+}
+.modal .edit-view[data-copy_id="8"] .element[data-element_type="filter"] .element_relate_participant+ul.dropdown-menu,
+.modal .edit-view[data-copy_id="8"] .element[data-element_type="filter"] .element_relate+ul.dropdown-menu{
+    top: 100%;
+    margin-top: 2px;
+}
+.modal .edit-view[data-copy_id="8"] .dropup .caret{
+	border-top: 4px solid;
+    border-bottom: 0;
+    content: "";
+}
+/*.list_view_block.copy_id8 .filter-box-col:nth-child(2){*/
+	/*min-width: 298px;*/
+	/*max-width: 298px;*/
+/*}*/
+.modal div[data-copy_id="8"] .select-item .settings>ul>li{
+	cursor: default;
+}
+.modal div[data-copy_id="8"] .select-item .settings>ul>li.not_numb+li{
+	display: none;
+}
+.modal div[data-copy_id="8"] .reports-mark .btn .filter-option{
+	padding-right: 40px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -o-text-overflow: ellipsis;
+    -moz-binding: url('/examples/text-overflow.xml#ellipsis');
+}
+.list_view_block.copy_id8 .filter-box-col:first-child>.bootstrap-select.element_filter>.dropdown-menu{
+	min-width: 278px;
+}
+.reports-det-table table.crm-table tr td .modal_dialog.name{
+	width: 100%!important;
+}
+
+.reports-mark div.dropdown-menu{
+	height: auto!important;
+}
+
+[data-element_type="filter"] .filter-box-condition-value button{
+	padding-bottom: 0!important;
+	padding-top: 0!important;
+}
+[data-element_type="filter"] .filter-box-condition-value button .name {
+	line-height: 32px;
+}
+
+.crm-table-wrapper a.edit_view_show{
+	text-decoration: underline;
+	color: #3ac7f9;
+}
+.crm-table-wrapper a.edit_view_show:hover{
+	text-decoration: none;
+}
+.modal .crm-dropdown.settings ul li .sub-menu-link{
+	margin-left: 0;
+}
+.edit-view[data-copy_id="8"] textarea{
+	max-width: 100%;
+	width: 100%;
+	resize: none;
+}
+
+.report-content .crm-table-wrapper .modal_dialog .text{
+	line-height: 32px;
+}
+
+
+.modal .select-item .settings .settings {
+	top: 3px;
+}
+.modal .inputs-block .sub-menu .todo-remove{
+	top: 9px;
+}

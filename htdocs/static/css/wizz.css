@@ -1,0 +1,429 @@
+/********* reset CSS ***********/
+body, html, div, blockquote, img, label, p, h1, h2, h3, h4, h5, h6, pre, ul, ol,
+li, dl, dt, dd, form, a, fieldset, input, th, td
+{  margin: 0; padding: 0; border: 0; outline: none;  font-family: Helvetica;}
+body
+{  line-height: 1;  width:100%; color: #414042; font-family: Helvetica;}
+h1, h2, h3, h4, h5, h6
+{  font-size: 100%;  padding: 0;  margin-bottom: 15px;}
+ul, ol
+{  list-style: none;  }
+a
+{  color: black;  text-decoration: underline; cursor: pointer; }
+a:hover
+{  text-decoration: none; }
+/********* end reset CSS ***********/
+
+.reg_background{
+    background-image: url(../../static/images/wizz/fullpagebg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    min-width: 700px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+.reg_background:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  /*background: rgba(0,0,0,0.4);*/
+}
+.wizz_form_wrapper{
+    width: 380px;
+    height: auto;
+    margin: 0 auto;
+	position: relative;
+    margin-top: 50px;
+}
+.wizz_form_wrapper > img{
+    width: 380px;
+}
+.wizz_form_wrapper.login{
+    width: 684px;
+    margin-top: 15%;
+    text-align: center;
+}
+.wizz_form_wrapper.password{
+    text-align: center;
+    width: 684px;
+    margin-top: 15%;
+}
+.wizz_form_wrapper.registration{
+    margin-top: 8%;
+    width: 580px;
+}
+.wizz_form_wrapper.password .recovery{
+    font-size: 20px;
+    margin-bottom: 84px;
+    display: block;
+    color: white;
+}
+.wizz_form_wrapper.password span{
+    color: white;
+}
+.wizz_form_wrapper form{
+    width: 290px;
+    display: block;
+    margin: 0 auto;
+}
+.wizz_form_wrapper.password form,
+.wizz_form_wrapper.login form,
+.wizz_form_wrapper.registration form{
+    width: auto;
+    margin-top: 84px;
+}
+.wizz_form_wrapper.password form{
+    width: 684px;
+}
+body .wizz_form_wrapper.login form input{
+    width: 241px;
+    vertical-align: top;
+    border: 2px solid #adc4d1;
+}
+body .wizz_form_wrapper.login form input::placeholder{
+    color: #ff9550;
+}
+body .wizz_form_wrapper.login form input,.wizz_form_wrapper.login form button{
+    margin-left: 17px;
+    margin-bottom: 13px;
+    font-family: "Hind Guntur";
+    font-size: 18px;
+    font-weight: 700;
+}
+body .wizz_form_wrapper form input::-ms-clear {
+   display: none;
+}
+body .wizz_form_wrapper.password form input{
+    width:504px;
+    vertical-align:top;
+    float:left;
+    margin-bottom:13px;
+}
+.wizz_form_wrapper.login form input:first-child,
+.wizz_form_wrapper.login form input:first-of-type{
+    margin-left: 0;
+    font-family: "Hind Guntur";
+    font-size: 18px;
+    font-weight: 300;
+}
+.wizz_form_wrapper.login a{
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-size: 14px;
+    color: white;
+}
+.wizz_form_wrapper.login form a{
+    display: block;
+    width: 264px;
+    float: left;
+    text-align: left;
+    font-size: 14px;
+    color: white;
+    text-decoration: none;
+    color: #adc4d1;
+    font-family: "Hind Guntur";
+    font-weight: 400;
+    letter-spacing: 0.67px;
+}
+.wizz_form_wrapper a:hover{
+    text-decoration:underline;
+}
+.wizz_form_wrapper.registration a{
+    color:white;
+    width:100%;
+    display:block;
+    padding:0 45px;
+    margin-top:12px;
+}
+.wizz_form_wrapper.registration > a{
+    padding: 0;
+}
+.wizz_form_wrapper.password a{
+    display: block;
+    width: 264px;
+    float: left;
+    text-align: left;
+    font-size: 14px;
+    color: white;
+}
+.wizz_form_wrapper.password > a{
+    width: 100%;
+    text-align: center;
+    float: none;
+}
+.wizz_form_wrapper .title{
+    color: #fff;
+    text-align: center;
+    margin-top: 55px;
+    margin-bottom: 60px;
+}
+.wizz_form_wrapper .title .number{
+    font-size: 26px;
+    line-height: 36px;
+    display: inline-block;
+    border: 2px solid #fff;
+    border-radius: 100%;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+.wizz_form_wrapper .title .text{
+    font-size: 20px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.wizz_form_wrapper .btn.btn-white{
+    height: 52px;
+}
+.wizz_form_wrapper .selectpicker .filter-option{
+    border: none;
+}
+.wizz_form_wrapper .btn.btn-white .caret{
+    display: none;
+}
+.wizz_form_wrapper .dropdown-menu > li > a:hover,
+.wizz_form_wrapper .dropdown-menu > li > a:focus{
+    background-color: #46b9b3;
+}
+.wizz_form_wrapper .dropdown-menu > li > a{
+    text-align: left;
+}
+.wizz_form_wrapper .bootstrap-select.btn-group .dropdown-menu li a span.text{
+    height: 36px;
+    line-height: 36px;
+}
+.wizz_form_wrapper .next{
+    width: 286px;
+    height: 48px;
+    border: 2px solid #adc4d1;
+    display: block;
+    margin: 0 auto;
+    background: none;
+    /*border-radius: 4px;*/
+    font-size: 20px;
+    color: #ff9550;
+    font-family: "Hind Guntur";
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.75px;
+}
+.wizz_form_wrapper.login .next{
+    width:158px;
+    height:52px;
+    display:inline-block;
+    text-transform: uppercase;
+}
+.wizz_form_wrapper.password .next{
+    width:158px;
+    margin:0;
+    display:inline-block;
+    height:52px;
+}
+.wizz_form_wrapper .next:hover{
+    color: #686B7C;
+    background: #fff;
+    text-decoration: none;
+}
+.wizz_form_wrapper .btn-group.bootstrap-select{
+    margin-bottom: 22px;
+}
+.wizz_form_wrapper form input[type="text"],.wizz_form_wrapper form input[type="password"]{
+    background: #fff;
+    border: none;
+    width: 100%;
+    height: 52px;
+    padding-left: 22px;
+    color: #000;
+    /*border-radius: 4px;*/
+    margin-bottom: 22px;
+    font-size: 14px;
+    font-weight: 300 !important;
+}
+.wizz_form_wrapper input{
+    height: 52px;
+}
+.wizz_form_wrapper input.insterr{
+    box-shadow: inset 0 0 4px 3px #fd7373;
+}
+.wizz_form_wrapper.registration form input{
+    width:288px;
+    margin-left:auto;
+    margin-right:auto;
+    display:block;
+}
+.steps{
+    min-height: 300px;
+}
+.step1, .step2, .step3, .step4{
+    overflow: hidden;
+}
+.step1{
+    /*height: 700px;*/
+    height: 310px;
+}
+.step2, .step3{
+    height:0;
+}
+
+.reg_background .steps .errorMessage{
+    display: inline-block;
+    margin-top: -9px;
+    margin-bottom: 22px;
+    padding: 0 10px;
+    background: #fff;
+    text-align: center;
+    left: 343px;
+    line-height: 27px;
+    min-height: 27px;
+    border-radius: 6px;
+    color: #fc5e5d;
+    font-size: 14px;
+}
+.reg_background .steps #formstep3+.errorMessage{
+    position: static;
+    margin-bottom: 20px;
+    padding: 10px 0;
+    width: 100%;
+    margin-top: 0;
+    font-size: 14px;
+}
+.reg_background .steps .errorMessage1{
+    background: #fff;
+  width: 100%;
+  text-align: center;
+  line-height: 20px;
+  min-height: 20px;
+  border-radius: 6px;
+  padding: 10px 0;
+  color: #fc5e5d !important;
+  font-size: 14px;
+}
+
+.wizz_form_wrapper input.error{
+    box-shadow: inset 0px 0px 10px 1px red;
+}
+
+#formstep2 label,#formstep3 label{
+    display: none!important;
+}
+#formstep3 label.checkbox{
+    display: block!important;
+  color: #fff;
+  text-align: left;
+  margin-bottom: 22px;
+  height: 22px;
+  line-height: 22px;
+  padding: 0;
+}
+#formstep3 label.checkbox>input{
+    position: absolute;
+    left: -9999px;
+}
+#formstep3 label.checkbox>span{
+    background: url(/static/images/button/checkbox.png) left bottom no-repeat;
+    height: 22px;
+    display: block;
+    padding-left: 35px;
+    margin-top: -10px;
+}
+#formstep3 label.checkbox>input:checked+span{
+    background: url(/static/images/button/checkbox.png) left top no-repeat;
+}
+
+.install_ready{
+    text-align: center;
+    font-size: 36px;
+    color: #fff;
+}
+.gotomain{
+    line-height: 40px;
+    text-align: center;
+    text-decoration: none;
+    margin-top: 50px!important;
+}
+.wizz_form_wrapper.login .errorMessage,
+.wizz_form_wrapper.password .errorMessage{
+    position: absolute;
+    top: 110px;
+    border-radius: 5px;
+}
+
+.wizz_form_wrapper.login .errorMessage{
+    width: 100%;
+}
+
+.wizz_form_wrapper.login .errorMessage > span{
+    display: inline-block;
+    width: auto;
+    background: #fff;
+    padding: 5px;
+    color: rgb(253, 93, 93);
+    border-radius: 5px;
+}
+
+.wizz_form_wrapper.login input[type="password"]+.errorMessage{
+    left: 275px;
+}
+.wizz_form_wrapper.registration .errorMessage {
+    background: #fff;
+    padding: 5px;
+    color: rgb(253, 93, 93);
+    border-radius: 5px;
+    margin: 0 auto;
+    max-width: 208px;
+    text-align: center;
+    margin-top: -20px;
+    margin-bottom: 20px;
+}
+.wizz_form_wrapper.login .flash-success{
+    text-align: center;
+    width: auto;
+    display: inline-block;
+    padding: 5px;
+    border-radius: 5px;
+    background: #fff;
+    margin-bottom: -25px;
+    margin-top: 25px;
+    color: rgb(12, 123, 181);
+}
+.wizz_form_wrapper.registration .logo_img{
+    cursor: pointer;
+}
+.wizz_form_wrapper.locked .logo_img{
+  width:380px;
+}
+.wizz_form_wrapper.locked {
+    text-align: center;
+    width: 580px;
+    margin-top: 15%;
+}
+.locked .content_form{
+    font-size: 21px;
+    color: white;
+    line-height: 24px;
+}
+.locked .content_form p:first-child{
+    margin-top:36px;
+}
+.locked .content_form p{
+    margin-top:25px;
+}
+
+
+@media (max-height: 820px) {
+    .wizz_form_wrapper{
+        margin-top: 20px;
+    }
+}
+/***********************************
+    profile page
+***********************************/

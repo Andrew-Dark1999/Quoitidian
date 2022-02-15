@@ -1,0 +1,9 @@
+<?php
+/**
+ * EntityCallbacksModel
+ */
+
+class EntityCallbacksModel{
+
+}
+

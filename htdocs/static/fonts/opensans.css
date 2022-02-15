@@ -1,0 +1,71 @@
+@font-face {
+    font-family: 'CustomOpenSans';
+    font-weight: normal;
+    font-style: normal;
+    src: url('../css/OpenSans/OpenSans-Regular.eot');
+    src: url('../css/OpenSans/OpenSans-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../css/OpenSans/OpenSans-Regular.woff2') format('woff2'),
+        url('../css/OpenSans/OpenSans-Regular.woff') format('woff'),
+        url('../css/OpenSans/OpenSans-Regular.ttf') format('truetype'),
+        url('../css/OpenSans/OpenSans-Regular.svg#OpenSans') format('svg');
+}
+
+@font-face {
+    font-family: 'CustomOpenSans';
+    font-weight: 300;
+    font-style: normal;
+    src: url('../css/OpenSans/OpenSans-Light.eot');
+    src: url('../css/OpenSans/OpenSans-Light.eot?#iefix') format('embedded-opentype'),
+    url('../css/OpenSans/OpenSans-Light.woff2') format('woff2'),
+    url('../css/OpenSans/OpenSans-Light.woff') format('woff'),
+    url('../css/OpenSans/OpenSans-Light.ttf') format('truetype'),
+    url('../css/OpenSans/OpenSans-Light.svg#OpenSans-Light') format('svg');
+}
+
+@font-face {
+    font-family: 'CustomOpenSans';
+    font-weight: 500;
+    font-style: normal;
+    src: url('../css/OpenSans/OpenSans-Bold.eot');
+    src: url('../css/OpenSans/OpenSans-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../css/OpenSans/OpenSans-Bold.woff2') format('woff2'),
+        url('../css/OpenSans/OpenSans-Bold.woff') format('woff'),
+        url('../css/OpenSans/OpenSans-Bold.ttf') format('truetype'),
+        url('../css/OpenSans/OpenSans-Bold.svg#OpenSans-Bold') format('svg');
+}
+@font-face {
+    font-family: 'CustomOpenSans';
+    font-weight: 700;
+    font-style: normal;
+    src: url('../css/OpenSans/OpenSans-Bold.eot');
+    src: url('../css/OpenSans/OpenSans-Bold.eot?#iefix') format('embedded-opentype'),
+    url('../css/OpenSans/OpenSans-Bold.woff2') format('woff2'),
+    url('../css/OpenSans/OpenSans-Bold.woff') format('woff'),
+    url('../css/OpenSans/OpenSans-Bold.ttf') format('truetype'),
+    url('../css/OpenSans/OpenSans-Bold.svg#OpenSans-Bold') format('svg');
+}
+
+
+@font-face {
+    font-family: 'CustomOpenSans';
+    font-weight: 600;
+    font-style: normal;
+    src: url('../css/OpenSans/OpenSans-Semibold.eot');
+    src: url('../css/OpenSans/OpenSans-Semibold.eot?#iefix') format('embedded-opentype'),
+    url('../css/OpenSans/OpenSans-Semibold.woff2') format('woff2'),
+    url('../css/OpenSans/OpenSans-Semibold.woff') format('woff'),
+    url('../css/OpenSans/OpenSans-Semibold.ttf') format('truetype'),
+    url('../css/OpenSans/OpenSans-Semibold.svg#OpenSans-Semibold') format('svg');
+}
+
+@font-face {
+    font-family: 'CustomOpenSans';
+    font-weight: 900;
+    font-style: normal;
+    src: url('../css/OpenSans/OpenSans-ExtraBold.eot');
+    src: url('../css/OpenSans/OpenSans-ExtraBold.eot?#iefix') format('embedded-opentype'),
+    url('../css/OpenSans/OpenSans-ExtraBold.woff2') format('woff2'),
+    url('../css/OpenSans/OpenSans-Extrabold.woff') format('woff'),
+    url('../css/OpenSans/OpenSans-ExtraBold.ttf') format('truetype'),
+    url('../css/OpenSans/OpenSans-Extrabold.svg#OpenSans-Extrabold') format('svg');
+}

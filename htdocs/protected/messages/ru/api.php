@@ -1,0 +1,27 @@
+<?php
+
+return [
+    'No data field "{s}"'                                                                               => 'Отсутсвуют данные поля "{s}"',
+    'Signature not confirm'                                                                             => 'Подпись не подтверждена',
+    'Not defined parameters'                                                                            => 'Не определены параметры',
+    'Parameter "{s}" should be an array'                                                                => 'Параметр "{s}" должен быть массивом',
+    'Not defined parameter "{s}"'                                                                       => 'Не определен параметр "{s}"',
+    'Invalid parameter "{s}"'                                                                           => 'Параметр "{s}" задан неверно',
+    'The parameter "{s}" can not be empty'                                                              => 'Параметр "{s}" не может быть пустым',
+    'Not defined action'                                                                                => 'Не определено действие',
+    'The module is not defined'                                                                         => 'Модуль не определен',
+    'An incorrect type of request'                                                                      => 'Неправилный тип запроса',
+    'Fields not found'                                                                                  => 'Поля отсутсвуют',
+    'Field #{s} not found'                                                                              => 'Поле #{s} не найдено',
+    'Process "{s}" not found'                                                                           => 'Процесс "{s}" не найден',
+    'Module with id "{s}" can not be found'                                                             => 'Модуль с id "{s}" не найден',
+    'Module with id "{s}" can not be found, or the module access denied'                                => 'Модуль с id "{s}" не найден, или доступ к модулю запрещен',
+    'Invalid query parameters are defined'                                                              => 'Неверно определены параметры запроса',
+    'Update error'                                                                                      => 'Ошибка обновления',
+    'Updated'                                                                                           => 'Обновлена',
+    'Data not found'                                                                                    => 'Данные не найдены',
+    'Data with {s1} = {s2} not found'                                                                   => 'Данные c {s1} = {s2} не найдены',
+    'Server error'                                                                                      => 'Ошибка сервера',
+    'The user is not defined, it is deactivated or the usage function Api is not active in the profile' => 'Не определен пользователь, он деактивирован или в профиле не активна функция использования Api',
+    'The "{s}" field value(s) must be numeric'                                                          => 'Значение(я) поля "{s}" должно быть числовым',
+];

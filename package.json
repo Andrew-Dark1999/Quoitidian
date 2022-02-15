@@ -1,0 +1,24 @@
+{
+  "name": "quotidian",
+  "version": "2.6.1",
+  "description": "This is a simple site",
+  "scripts": {
+    "gulp": "gulp"
+  },
+  "author": "Alex",
+  "license": "ISC",
+  "environments": {
+    "bpm-version": "1",
+    "mode": "production",
+    "draft_interval": 1000,
+    "send_draft_json_to_local_storage": 2000
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-clean-css": "^3.5.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-less": "^3.3.2",
+    "gulp-uglify": "^3.0.0",
+    "gulp-watch": "^4.3.11"
+  }
+}

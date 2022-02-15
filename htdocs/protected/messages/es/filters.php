@@ -1,0 +1,30 @@
+<?php
+return array(
+    // Filter elements
+    'Condition' => 'Condición',
+    'Begins with' => 'Empieza con',
+    'Corresponds' => 'Corresponde a',
+    'Not corresponds' => 'No corresponde a',
+    'For 7 days' => 'Para7 días',
+    'For 30 days' => 'Para 30 días',
+    'For today' => 'Para hoy',
+    'Current month' => 'Mes actual',
+    'Past month' => 'Mes pasado',
+    'Current year' => 'Año actual',
+    'Past year' => 'Año pasado',
+    'After' => 'Después de',
+    'To' => 'Hasta',
+    'Period' => 'Período',
+    'Filter name' => 'Nombre del filtro',
+    'Personal' => 'Personal',
+    'General' => 'General',
+    'Contains' => 'Contiene',
+    'After the current date' => 'Después de la fecha actual',
+    'Prior to the current date' => 'Anterior a la fecha actual',
+    'Not equal' => 'Diferente de',
+    'More' => 'Mayor a',
+    'Less' => 'Menor a',
+    'Starts' => 'Inicio',
+    'Ending' => 'Final',
+
+);
